@@ -1,0 +1,1 @@
+"use strict";alert("You have to find a number between 1 and 100");for(var r,t,e,o=(r=1,t=100,Math.floor(Math.random()*(t-r+1))+r),a=8;0<a&&e!=o;)o<(e=prompt("Enter your number",""))?(a--,alert("Your number is bigger\nYour attempts: "+a)):e<o?(a--,alert("Your number is smaller\nYour attempts: "+a)):e==o&&alert("Congratulation! You won :)");0==a&&e!=o&&alert("You lose :/");
